@@ -53,6 +53,17 @@ Al finalizar este workshop, podrás:
 
 </details>
 
+<details>
+<summary><strong>Caso de uso: Gestión de Contactos de un Equipo de Proyecto</strong></summary>
+
+- **Requerimiento:** El sistema debe permitir visualizar, agregar y filtrar miembros de un equipo de proyecto, mostrando su nombre, correo y rol, y resaltando al líder del proyecto.
+
+- [team-contacts.component.ts](exercises/1-templates/use-case-team-contacts/team-contacts.component.ts)
+- [role-pipe.ts](exercises/1-templates/use-case-team-contacts/role-pipe.ts)
+- [README.md](exercises/1-templates/use-case-team-contacts/README.md) - Descripción y guía del caso de uso
+
+</details>
+
 ### Bloque 2: Directivas Angular (70 min)
 
 <details>
@@ -85,6 +96,19 @@ Al finalizar este workshop, podrás:
 
 </details>
 
+<details>
+<summary><strong>Caso de uso: Panel interactivo de tareas con directivas personalizadas</strong></summary>
+
+- **Requerimiento:** El sistema debe permitir gestionar una lista de tareas donde el usuario pueda marcar tareas como importantes, completadas o pendientes usando directivas estructurales, de atributo y personalizadas, mejorando la experiencia visual e interacción.
+
+- [task-panel.component.ts](exercises/2-directives/use-case-task-panel/task-panel.component.ts) - Cascarón para empezar la solución
+- [SOLUTION-task-panel.component.ts](exercises/2-directives/use-case-task-panel/SOLUTION-task-panel.component.ts) - Solución completa del caso de uso
+- [important.directive.ts](exercises/2-directives/use-case-task-panel/important.directive.ts) - Directiva personalizada (cascarón)
+- [SOLUTION-important.directive.ts](exercises/2-directives/use-case-task-panel/SOLUTION-important.directive.ts) - Directiva personalizada (solución)
+- [README.md](exercises/2-directives/use-case-task-panel/README.md) - Descripción y guía del caso de uso
+
+</details>
+
 ### Bloque 3: Pipes en Angular (40 min)
 
 <details>
@@ -103,6 +127,22 @@ Al finalizar este workshop, podrás:
 - [capitalize.pipe.ts](exercises/3-pipes/3.2-custom/capitalize.pipe.ts) - Ejemplo de pipe personalizado
 - [start.pipe.ts](exercises/3-pipes/3.2-custom/start.pipe.ts) - Ejercicio para completar
 - [HINTS.md](exercises/3-pipes/3.2-custom/HINTS.md) - Guía para implementación
+
+</details>
+
+<details>
+<summary><strong>Caso de uso: Visualización avanzada de reportes con pipes personalizados</strong></summary>
+
+- **Requerimiento:** El sistema debe mostrar una tabla de reportes donde los datos puedan ser transformados y presentados usando pipes integrados y personalizados, permitiendo formatos de fecha, moneda, capitalización y filtros avanzados.
+
+- [report-table.component.ts](exercises/3-pipes/use-case-report-table/report-table.component.ts) - Cascarón para empezar la solución
+- [SOLUTION-report-table.component.ts](exercises/3-pipes/use-case-report-table/SOLUTION-report-table.component.ts) - Solución completa del caso de uso
+- [currency-format.pipe.ts](exercises/3-pipes/use-case-report-table/currency-format.pipe.ts) - Pipe personalizado (cascarón)
+- [capitalize.pipe.ts](exercises/3-pipes/use-case-report-table/capitalize.pipe.ts) - Pipe personalizado
+- [SOLUTION-currency-format.pipe.ts](exercises/3-pipes/use-case-report-table/SOLUTION-currency-format.pipe.ts) - Pipe personalizado (solución)
+- [status-filter.pipe.ts](exercises/3-pipes/use-case-report-table/status-filter.pipe.ts) - Pipe de filtro de estado (cascarón)
+- [SOLUTION-status-filter.pipe.ts](exercises/3-pipes/use-case-report-table/SOLUTION-status-filter.pipe.ts) - Pipe de filtro de estado (solución)
+- [README.md](exercises/3-pipes/use-case-report-table/README.md) - Descripción y guía del caso de uso
 
 </details>
 

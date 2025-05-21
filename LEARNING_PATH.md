@@ -52,6 +52,8 @@ Al completar este workshop, serás capaz de:
          ↓
     Uso de [property], (event), [(ngModel)]
     Prácticas de binding seguro y eficiente
+         ↓
+Caso de uso: Gestión de contactos de un equipo de proyecto
 ```
 
 ### Bloque 2: Directivas Angular (70 min)
@@ -71,6 +73,8 @@ Al completar este workshop, serás capaz de:
          ↓
     Creación de directivas propias
     Modificación de comportamiento y estilos
+         ↓
+Caso de uso: Panel interactivo de tareas con directivas personalizadas
 ```
 
 ### Bloque 3: Pipes en Angular (40 min)
@@ -85,6 +89,8 @@ Al completar este workshop, serás capaz de:
          ↓
     Implementación de pipes propios
     Transformación avanzada de datos
+         ↓
+Caso de uso: Visualización avanzada de reportes con pipes personalizados
 ```
 
 ### Proyecto Integrador (20 min)
@@ -92,6 +98,7 @@ Al completar este workshop, serás capaz de:
 ```plain
 4.1 Mini-proyecto: Lista dinámica con directivas y pipes
     Integración de templates, directivas y pipes en una aplicación funcional
+    (No aplica caso de uso adicional, ya que es la integración de todos los conceptos)
 ```
 
 ## 🧠 Metodología del workshop
@@ -119,29 +126,29 @@ Al completar este workshop, serás capaz de:
 - **00:00-00:05** - Bienvenida e introducción
 - **00:05-00:25** - 1.1 Fundamentos de Templates
 - **00:25-00:35** - 1.2 Enlaces y Expresiones
+- **00:35-00:50** - Caso de uso real: Gestión de contactos de un equipo de proyecto  
+  _Aplicación práctica de templates, binding y directivas básicas en un escenario realista._
 
 ### Parte 2: Directivas Angular (70 min)
 
-- **00:35-01:00** - 2.1 Directivas Estructurales
-- **01:00-01:25** - 2.2 Directivas de Atributo
-- **01:25-01:45** - 2.3 Directivas Personalizadas
+- **00:50-01:15** - 2.1 Directivas Estructurales
+- **01:15-01:40** - 2.2 Directivas de Atributo
+- **01:40-01:55** - 2.3 Directivas Personalizadas
+- **01:55-02:05** - Caso de uso real: Panel interactivo de tareas con directivas personalizadas  
+  _Integración de directivas estructurales, de atributo y personalizadas en una solución de gestión de tareas._
 
 ### Parte 3: Pipes en Angular (40 min)
 
-- **01:45-02:05** - 3.1 Pipes Integrados y Personalizados
-- **02:05-02:25** - 3.2 Creación de Pipes Personalizados
+- **02:05-02:15** - 3.1 Pipes Integrados y Personalizados
+- **02:15-02:25** - 3.2 Creación de Pipes Personalizados
+- **02:25-02:35** - Caso de uso real: Visualización avanzada de reportes con pipes personalizados  
+  _Transformación y presentación avanzada de datos usando pipes integrados y personalizados._
 
 ### Proyecto Integrador (20 min)
 
-- **02:25-02:45** - Mini-proyecto: Lista dinámica con directivas y pipes
-- **02:45-03:00** - Conclusiones y recursos adicionales
-
-## 📝 Evaluación del aprendizaje
-
-- **Implementación correcta** de los ejercicios propuestos
-- **Resolución de retos** aplicando los conceptos aprendidos
-- **Participación activa** con preguntas y aportes
-- **Proyecto integrador** que demuestra la aplicación práctica
+- **02:35-02:55** - Mini-proyecto: Lista dinámica con directivas y pipes  
+  _Integración de todos los conceptos en una aplicación funcional._
+- **02:55-03:00** - Conclusiones y recursos adicionales
 
 ## 🧩 Material complementario
 

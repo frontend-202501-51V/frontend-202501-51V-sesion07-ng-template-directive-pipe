@@ -12,6 +12,11 @@ export const routes: Routes = [
       import('./binding/binding.module').then((m) => m.BindingModule),
   },
   {
+    path: 'team-contacts',
+    loadChildren: () =>
+      import('./team-contacts/team-contacts.module').then((m) => m.TeamContactsModule),
+  },
+  {
     path: 'built-in',
     loadChildren: () =>
       import('./built-in/built-in.module').then((m) => m.BuiltInModule),
@@ -40,5 +45,15 @@ export const routes: Routes = [
     path: 'structural',
     loadChildren: () =>
       import('./structural/structural.module').then((m) => m.StructuralModule),
+  },
+  {
+    path: 'task-panel',
+    loadChildren: () =>
+      import('./task-panel/task-panel.module').then((m) => m.TaskPanelModule),
+  },
+  {
+    path: 'report-table',
+    loadChildren: () =>
+      import('./report-table/report-table.module').then((m) => m.ReportTableModule),
   },
 ];
