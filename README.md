@@ -16,9 +16,9 @@ Al finalizar este workshop, podrás:
 
 ### 📄 Archivos principales
 
-- README.md - Información general e instrucciones
-- LEARNING_PATH.md - Ruta de aprendizaje y objetivos
-- SETUP.md - Instrucciones detalladas de configuración del entorno
+- [README.md](README.md) - Información general e instrucciones
+- [LEARNING_PATH.md](LEARNING_PATH.md) - Ruta de aprendizaje y objetivos
+- [SETUP.md](SETUP.md) - Instrucciones detalladas de configuración del entorno
 
 ### 📚 Documentación y guías
 
