@@ -175,29 +175,27 @@ Este workshop implementa un enfoque práctico y progresivo, combinando **concept
 
 ## 🤝 Contribuciones
 
-Este proyecto sigue las convenciones de Angular para contribuciones:
+Este repositorio es de uso exclusivo interno de Skills4Up. No se aceptan contribuciones externas.
 
-1. Crea un issue describiendo la mejora o problema
+Si eres parte del equipo de Skills4Up y deseas proponer una mejora o corrección:
+
+1. Crea un issue describiendo la mejora o problema.
 2. Realiza cambios en una rama con prefijo según el tipo:
    - `feat/` para nuevas funcionalidades
    - `fix/` para correcciones
    - `docs/` para documentación
    - `refactor/` para refactorización
 3. Usa mensajes de commit siguiendo el formato `type(scope): message`
-4. Envía un PR vinculado al issue original
+4. Envía un Pull Request vinculado al issue original.
 
-Todas las contribuciones incluirán los créditos correspondientes.
+Todas las contribuciones internas incluirán los créditos correspondientes.
 
 ## 📜 Licencia
 
-Este material está licenciado bajo [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/). Puedes:
+Copyright (c) 2024 Skills4Up
 
-- Compartir y adaptar el material
-- Dar crédito apropiado al autor original
+Todos los derechos reservados.
 
-No puedes:
+Este material es propiedad exclusiva de Skills4Up. Queda prohibida su reproducción, distribución, comunicación pública o transformación, total o parcial, sin la autorización expresa y por escrito de Skills4Up. El uso de este material está restringido únicamente a fines internos de Skills4Up.
 
-- Usar el material con fines comerciales sin autorización
-- Distribuir versiones modificadas bajo términos más restrictivos
-
-Para usos comerciales o autorizaciones especiales, contacta a [info@skills4up.com](mailto:info@skills4up.com).
+Para autorizaciones especiales, contacta a [info@skills4up.com](mailto:info@skills4up.com).
