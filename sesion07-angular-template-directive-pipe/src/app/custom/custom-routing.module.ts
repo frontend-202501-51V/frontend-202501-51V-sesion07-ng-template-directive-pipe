@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CustomDirectivesExamplesComponent } from './custom-directives-examples.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
