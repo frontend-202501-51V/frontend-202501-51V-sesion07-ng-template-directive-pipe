@@ -1,11 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({
-  name: 'length'
-})
+@Pipe({ name: 'length' })
 export class LengthPipe implements PipeTransform {
   transform(value: any[]): number {
-    // your code goes here
-    return 0
+    // TODO: Devuelve la longitud del array recibido
+    return 0;
   }
 }

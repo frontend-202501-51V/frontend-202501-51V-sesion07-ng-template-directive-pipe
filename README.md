@@ -148,11 +148,33 @@ Al finalizar este workshop, podrás:
 
 ### Proyecto Integrador (20 min)
 
-- [README.md](exercises/4-project/README.md) - Descripción del mini-proyecto y objetivos
-- [app.component.ts](exercises/4-project/app.component.ts) - Componente principal (base)
-- [task-list.component.ts](exercises/4-project/task-list.component.ts) - Componente de lista de tareas (base, para completar)
-- [HINTS.md](exercises/4-project/HINTS.md) - Guía y pistas para implementación
-- [SOLUTION-task-list.component.ts](exercises/4-project/SOLUTION-task-list.component.ts) - Solución completa (referencia)
+<details>
+<summary><strong>Caso de uso: Dashboard Personal de Hábitos y Progreso</strong></summary>
+
+- **Requerimiento:** El sistema debe permitir a un usuario gestionar y visualizar sus hábitos diarios o semanales, registrar avances, marcar hábitos como cumplidos, filtrar por estado (todos, cumplidos, pendientes) y por categoría, resaltar hábitos cumplidos, mostrar estadísticas de progreso y transformar la presentación de los datos usando templates, directivas estructurales y de atributo, directivas personalizadas y pipes tanto integrados como personalizados.
+
+#### Archivos del caso de uso
+
+- [README.md](exercises/4-project/README.md) – Descripción, caso de uso y objetivos del proyecto integrador
+- [app.module.ts](exercises/4-project/app.module.ts) – Módulo principal de Angular
+- [app.component.ts](exercises/4-project/app.component.ts) – Componente principal (base)
+- [habit-list.component.ts](exercises/4-project/habit-list.component.ts) – Componente para mostrar y gestionar la lista de hábitos
+- [habit.component.ts](exercises/4-project/habit.component.ts) – Componente para representar un hábito individual
+- [habitFilter.pipe.ts](exercises/4-project/habitFilter.pipe.ts) – Pipe personalizado para filtrar hábitos por estado y/o categoría
+- [capitalize.pipe.ts](exercises/4-project/capitalize.pipe.ts) – Pipe personalizado para capitalizar textos
+- [length.pipe.ts](exercises/4-project/length.pipe.ts) – Pipe personalizado para contar hábitos
+- [HINTS.md](exercises/4-project/HINTS.md) – Guía y pistas para implementación
+- [highlight.directive.ts](exercises/4-project/highlight.directive.ts) – Directiva personalizada para resaltar hábitos cumplidos
+
+
+#### Soluciones de referencia
+
+- [SOLUTION-habit-list.component.ts](exercises/4-project/SOLUTION-habit-list.component.ts)
+- [SOLUTION-habitFilter.pipe.ts](exercises/4-project/SOLUTION-habitFilter.pipe.ts)
+- [SOLUTION-capitalize.pipe.ts](exercises/4-project/SOLUTION-capitalize.pipe.ts)
+- [SOLUTION-length.pipe.ts](exercises/4-project/SOLUTION-length.pipe.ts)
+
+</details>
 
 > **Nota:** Durante el workshop, trabaja sobre los archivos base. Si necesitas ayuda, consulta `HINTS.md`. Al finalizar, puedes comparar tu solución con los archivos `SOLUTION-*` para autoevaluarte.
 

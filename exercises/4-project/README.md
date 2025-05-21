@@ -1,29 +1,38 @@
-# 4. Proyecto Integrador: Lista Dinámica con Directivas y Pipes
+# Proyecto Integrador: Dashboard Personal de Hábitos y Progreso
 
-En este mini-proyecto aplicarás todo lo aprendido sobre templates, directivas y pipes para construir una pequeña aplicación de lista de tareas dinámica.
+## Requerimiento
 
-## 🎯 Objetivos
+El sistema permite a un usuario gestionar y visualizar sus hábitos diarios o semanales, registrar avances, marcar hábitos como cumplidos, filtrar por estado (todos, cumplidos, pendientes) y por categoría, resaltar hábitos cumplidos, mostrar estadísticas de progreso y transformar la presentación de los datos usando templates, directivas estructurales y de atributo, directivas personalizadas y pipes tanto integrados como personalizados.
 
-- Integrar templates, directivas estructurales y de atributo, y pipes en una aplicación funcional.
-- Practicar la manipulación de listas y la transformación de datos en la vista.
-- Aplicar buenas prácticas de Angular en la organización del código.
+## Archivos
 
-## 📝 Descripción
+- `app.component.ts` – Componente principal
+- `habit-list.component.ts` – Lista y gestión de hábitos
+- `habit.component.ts` – Visualización de un hábito individual
+- `habitFilter.pipe.ts` – Pipe personalizado para filtrar hábitos
+- `capitalize.pipe.ts` – Pipe para capitalizar textos
+- `length.pipe.ts` – Pipe para contar hábitos
+- `highlight.directive.ts` – Directiva personalizada para resaltar hábitos cumplidos
+- `app.module.ts` – Módulo principal de Angular
 
-Construye una aplicación de lista de tareas donde puedas:
+## ¿Qué conceptos se aplican?
 
-- Agregar nuevas tareas.
-- Marcar tareas como completadas.
-- Filtrar tareas por estado (todas, completadas, pendientes) usando un pipe personalizado.
-- Resaltar tareas completadas usando una directiva de atributo.
-- Mostrar la cantidad total y completada de tareas usando pipes integrados.
+- Templates y data binding
+- Directivas estructurales (`*ngFor`, `*ngIf`)
+- Directivas de atributo (`[ngClass]`)
+- Directiva personalizada (`appHighlight`)
+- Pipes integrados y personalizados (`capitalize`, `length`, `habitFilter`)
+- Componentización y comunicación entre componentes
 
-## 📂 Archivos de apoyo
+## ¿Cómo probar?
 
-- [`app.component.ts`](app.component.ts) – Componente principal de la aplicación.
-- [`task-list.component.ts`](task-list.component.ts) – Componente para mostrar y gestionar la lista de tareas.
-- [`HINTS.md`](HINTS.md) – Guía para implementación.
+1. Asegúrate de tener Angular CLI instalado.
+2. Copia estos archivos en tu proyecto Angular.
+3. Declara los componentes, pipes y directiva en tu módulo.
+4. Ejecuta `ng serve` y abre la app.
 
----
+## Sugerencias
 
-¡Pon a prueba tus conocimientos integrando directivas y pipes en una aplicación real!
+- Puedes extender la funcionalidad agregando edición/eliminación de hábitos.
+- Prueba diferentes estilos en la directiva personalizada.
+- Experimenta con más pipes o directivas propias.

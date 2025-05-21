@@ -1,11 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({
-  name: 'capitalize'
-})
+@Pipe({ name: 'capitalize' })
 export class CapitalizePipe implements PipeTransform {
   transform(value: string): string {
-    // your code goes here
-    return ''
+    // TODO: Capitaliza el primer carácter del texto
+    return value;
   }
 }
