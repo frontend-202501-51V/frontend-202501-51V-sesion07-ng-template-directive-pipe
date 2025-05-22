@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { IntroductionRoutingModule } from './introduction-routing.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap'
+import { IntroductionComponent } from './introduction/introduction.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [],
+  declarations: [IntroductionComponent],
   imports: [
-    CommonModule,
+    CommonModule, FormsModule,
     IntroductionRoutingModule,
     NgbModule
   ]

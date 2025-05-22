@@ -1,0 +1,42 @@
+<!-- para interpolar este valor se realiza usando dobles llave {{ }} -->
+
+{{ titulo }}
+
+<p>por ejemplo podemos hacer una interpolación con una expresión</p>
+<p>en la interpolacion se puede evaluar expresiones o mostrar variables</p>
+5 * 5 = <strong>{{ resultadoDeUnaSuma  }}</strong>
+<br />
+<p>tambien podemos mostrar listas o ocultarlos dependiendo de su valor</p>
+
+abajo deberia aparecer el contenido
+<div *ngIf="seTieneQueOcultar" >
+  este contenido se va a mostrar??
+  {{ seTieneQueOcultar  }}
+</div>
+
+ <!-- bindings -->
+<h2>Bindings</h2>
+<p>podemos bindear el atributo src de un elemento img</p>
+<img [src]="src" width="300" alt="no hay una imagen" />
+
+
+<!-- event binding -->
+<p>event binding</p>
+<!-- evento click se da cuando se hace click sobre el elemento -->
+<button type="button" (click)="manejandoBoton()">incrementar valor</button>
+el valor del contador es -> {{  contador  }}
+
+<!-- two way binding -->
+ <br/>
+ <br/>
+ <br/>
+ <h2>binding de ida y vuelta</h2>
+
+<!-- quiero almacenar el valor que estoy enviando al input -->
+ <!-- usando ngModel estoy almacenando el valor del input -->
+<input type="text" [(ngModel)]="nombre"  placeholder="el texto que va dentro del input" />
+
+<p>aqui se ve el valor actual del input</p>
+{{ nombre  }}
+<p>aqui tambien</p>
+{{ nombre  }}
