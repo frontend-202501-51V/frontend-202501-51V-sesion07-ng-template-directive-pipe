@@ -1,0 +1,31 @@
+<p>mostrar un mensaje segun el tipo de evento</p>
+@switch (evento.tipo) {
+  @case ('concierto') { <p>concierto</p> }
+  @case ('conferencia') { <p>conferencia</p> }
+  @default { <p>otro evento</p> }
+}
+
+<hr>
+
+<div class="container">
+  <p>mostrar que idioma tiene actualmente el componente</p>
+
+  <!-- @if(idioma === 'es') {
+    <p>espanol seleccionado</p>
+  } @else if (idioma === 'en'){
+    <p>ingles seleccionado</p>
+  } @else if (idioma === 'fr') {
+    <p>frances seleccionado</p>
+  } -->
+  <p>usando switch</p>
+  <!-- se evalua el atributo idioma -->
+  @switch (idioma) {
+    <!-- caso se selecciona y se evalua el html -->
+    @case ('es') {  <p>espanol seleccionado</p> }
+    @case ('en') {  <p>ingles seleccionado</p> }
+    @case ('fr') {  <p>frances seleccionado</p> }
+    @default { <p>idioma no soportado</p> }
+  }
+
+
+</div>

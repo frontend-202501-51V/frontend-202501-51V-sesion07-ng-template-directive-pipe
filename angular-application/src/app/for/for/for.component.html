@@ -1,0 +1,87 @@
+<div class="container">
+  <p>iteracion sobre iteracion</p>
+
+  @for(fila of matriz; track $index){
+    <span>
+      @for(celda of fila; track $index){
+        {{celda}}
+      }
+    </span>
+    <br>
+  }
+
+</div>
+
+<hr>
+
+<div class="container">
+  <p>usar if y for en la misma sentencia</p>
+  <ul>
+    <!-- TODO: validar implementacion con for - if -->
+    <!-- @for(item of items; track $index) @if { -->
+      <!-- {{item}}
+    } -->
+
+    <li>
+    </li>
+  </ul>
+</div>
+
+<hr>
+
+<div class="container">
+  <p>obteniendo e iterando el key</p>
+  <ul>
+    @for(dato of objectKeys(datosDeOficina); track $index){
+      <p>obtener la llave y valor de un objeto</p>
+      <li>{{dato}} -> {{ datosDeOficina[dato] }}</li>
+    }
+  </ul>
+</div>
+
+<hr>
+
+<div class="container">
+  <p>listame las tareas si no hay pendientes y esta activo</p>
+  <!-- validar si existen las tareas -->
+  @if(tareas.length === 0){
+    <!-- se muestra si hay tareas -->
+    <p>no hay tareas</p>
+  } @else {
+    <ul>
+      <!-- se muestra todas las tareas del arreglo -->
+      @for (tarea of tareas; track $index) {
+        <!-- aqui se validaria si la tarea esta activo  no -->
+        <!-- aqui ya se tiene la reference a la tarea -->
+          @if(tarea.activo === true){
+            <li>{{tarea.nombre  }}, activo</li>
+          } @else {
+            <li>{{tarea.nombre  }}, no esta activo</li>
+          }
+          <!-- mejora -->
+           <li>{{tarea.nombre  }},
+              @if(tarea.activo) {
+                esta activo
+              } @else {
+                no esta activo
+              }
+           </li>
+           <li>{{tarea.nombre  }}, {{ tarea.activo ? 'esta activo' : 'no esta activo' }} </li>
+      }
+    </ul>
+
+  }
+
+</div>
+
+<hr>
+<div class="container">
+  <!-- unordered list / li-> list -->
+  <ul>
+    @for (nombre of nombres; track $index){
+      <li>
+        {{ nombre }}
+      </li>
+    }
+  </ul>
+</div>

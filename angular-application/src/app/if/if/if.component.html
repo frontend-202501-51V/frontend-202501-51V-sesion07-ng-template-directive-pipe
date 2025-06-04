@@ -1,0 +1,58 @@
+<div class="container">
+  <p>mostrar un cargador con simulacion de llamada a API</p>
+
+  @if(cargando) {
+    <p>cargando datos..</p>
+  } @else if(datos) {
+    <p>Datos cargados: {{ datos }}</p>
+    <!-- pueden usar @else if tantas veces se requiera -->
+     <!-- pero solo un else -->
+    <!-- el @else final es OPCIONAL -->
+  } @else {
+    <p>no hay datos disponibles</p>
+  }
+</div>
+
+<hr>
+
+<div class="container">
+  <p>monstrar un mensaje segun la edad</p>
+  @if (edad >= 18) {
+    <p>eres mayor de edad</p>
+  } @else {
+    <p>Eres menor de edad</p>
+  }
+</div>
+
+<hr>
+
+<div class="container">
+  <p>manejo de alias</p>
+  <!-- alias para usar un alias de una variable -->
+   <!-- en vez de su nombre completo -->
+  @if(productoProximoAValidarEnTienda){
+    @let p = productoProximoAValidarEnTienda;
+    <p> Producto: {{ p.juego }} - S/. {{ p.cantidad }}</p>
+  }
+</div>
+
+<hr>
+
+<div class="container">
+  <p>Mostrar una alerta si el carrito esta vacio</p>
+  <!-- .length es un atributo del arreglo -->
+   <!-- me trae la cantidad de elementos del arreglo -->
+  @if(cart.length === 0) {
+    <p>tu carrito está vacio</p>
+  }
+</div>
+
+<hr>
+<div class="container">
+  <!-- aqui va la evaluación de la expresión ó un atributo de la clase -->
+  @if (isAuthenticated) {
+    <p>Bienvenido de nuevo</p>
+  } @else {
+    <p>Por favor, inicia sesión</p>
+  }
+</div>

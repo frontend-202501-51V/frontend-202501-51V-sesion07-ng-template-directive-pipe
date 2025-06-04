@@ -56,4 +56,19 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./report-table/report-table.module').then((m) => m.ReportTableModule),
   },
+  {
+    path: 'if',
+    loadChildren: () =>
+      import('./if/if.module').then((m) => m.IfModule),
+  },
+  {
+    path: 'for',
+    loadChildren: () =>
+      import('./for/for.module').then((m) => m.ForModule),
+  },
+  {
+    path: 'switch',
+    loadChildren: () =>
+      import('./switch/switch.module').then((m) => m.SwitchModule),
+  },
 ];
